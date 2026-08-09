@@ -1,6 +1,4 @@
 
-如果你想讓英文更像 **GitHub 專案介紹**、自然一點，我會更推薦這個版本：
-
 ```markdown
 # PM2.5 Real-Time Monitoring System
 
