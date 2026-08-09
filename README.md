@@ -1,6 +1,6 @@
 # PM2.5 Real-Time Monitoring System
 
-This project is a **Python-based PM2.5 real-time monitoring system** that retrieves the latest air quality data from the **Taiwan Ministry of Environment Open Data API**.
+This is a **Python-based PM2.5 real-time monitoring system** that retrieves the latest air quality data from the **Taiwan Ministry of Environment Open Data API**.
 
 Users can select a city or county to monitor, and the program automatically checks the latest PM2.5 readings from monitoring stations in the selected area.
 
