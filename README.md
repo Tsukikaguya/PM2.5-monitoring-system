@@ -1,24 +1,23 @@
 
+如果你想讓英文更像 **GitHub 專案介紹**、自然一點，我會更推薦這個版本：
 
-# PM2.5 即時監測系統
+```markdown
+# PM2.5 Real-Time Monitoring System
 
-本專案使用 Python 串接環境部開放資料 API，取得各縣市測站的 PM2.5 最新資料。
+A Python-based PM2.5 monitoring system that retrieves the latest air quality data from the Taiwan Ministry of Environment Open Data API.
 
-## 功能
+## Features
 
-- 使用者輸入環境部 API Key
-- 查看可監測縣市
-- 自行選擇及更改預設城市
-- 每 15 分鐘自動更新
-- 每個測站只保留最新一筆資料
-- PM2.5 超過警戒值時發出警示音
-- 輸入 `stop` 停止監測
-- 輸入 `shutdown` 關閉程式
+- Supports user-provided Ministry of Environment API Keys
+- Displays available cities and counties for monitoring
+- Allows users to select and change the monitoring location
+- Automatically updates PM2.5 data every 15 minutes
+- Keeps only the latest reading from each monitoring station
+- Plays an alert sound when the PM2.5 level exceeds the specified threshold
+- Enter `stop` to stop monitoring
+- Enter `shutdown` to exit the program
 
-## 安裝
+## Installation
 
 ```bash
 pip install -r requirements.txt
-
-## API可以自己去申請就好
-https://airtw.moenv.gov.tw/
